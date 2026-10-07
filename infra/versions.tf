@@ -27,7 +27,6 @@ provider "aws" {
       ManagedBy = "terraform",
       CreatedBy = "simon",
       Region = var.region,
-      TerraformVersion = terraform.version,
       Timestamp = timestamp(),
       Platform = "aws",
     }
